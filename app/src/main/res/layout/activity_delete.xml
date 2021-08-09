@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFB7B7"
+    tools:context=".Delete">
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:background="#650525" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="RECIPES"
+        android:textAlignment="center"
+        android:textColor="#FAF7F7"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/listDel"
+        android:layout_width="match_parent"
+        android:layout_height="625dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="1dp"  />
+</RelativeLayout>
